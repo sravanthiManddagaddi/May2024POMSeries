@@ -16,9 +16,12 @@ public class LoginPage {
 	private By username = By.id("input-email");
 	private By password = By.id("input-password");
 	private By loginBtn = By.xpath("//input[@value='Login']");
-	private By forgotPwdLink = By.linkText("Forgotten Password11");
+	private By forgotPwdLink = By.linkText("Forgotten Password");
 	private By registerLink = By.linkText("Register");
 	private By logo = By.cssSelector("img.img-responsive");
+	
+	private By naveen = By.cssSelector(".naveen");
+
 
 	// 2. Public Page Const...
 	public LoginPage(WebDriver driver) {
