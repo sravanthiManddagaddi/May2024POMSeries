@@ -6,5 +6,11 @@ public class FeaturePage {
 		System.out.println("f1 feature");
 	}
 	
+	public void f2() {
+		System.out.println("f2 feature");
+	}
+	
+	
+	
 
 }
