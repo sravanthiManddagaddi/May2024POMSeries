@@ -36,7 +36,7 @@ public class LoginPageTest extends BaseTest {
 	}
 
 	@Severity(SeverityLevel.NORMAL)
-	@Description("login page url test....")
+	@Description("login page url testing....")
 	@Feature("Feature 401: title test feature")	
 	@Test()
 	public void loginPageURLTest() {
