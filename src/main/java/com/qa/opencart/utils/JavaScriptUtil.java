@@ -15,6 +15,7 @@ public class JavaScriptUtil {
 	}
 	
 	public String getPageTitle() {
+
 		return js.executeScript("return document.title;").toString();
 	}
 	
